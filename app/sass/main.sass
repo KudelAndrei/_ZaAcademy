@@ -280,8 +280,8 @@ ul
 			margin-bottom: 30px
 			box-shadow: 0 0 51px rgba(#000, .1)
 			display: inline-block
-			:valid
-				border: red
+			&:required:valid
+				border: 1px solid green
 		.inp-last
 			float: right
 		&__btn
